@@ -1,0 +1,18 @@
+.show{
+    width: 100%;
+    animation: show .5 4s backwards reverse ease-out;
+}
+
+.contenido-formulario{
+    animation: show .3s 1.5s backwards reverse ease-out;
+}
+
+@keyframes show{
+    from{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    to{
+        clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+    }
+}

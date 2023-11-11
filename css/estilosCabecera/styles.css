@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block-info {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* navegación cabecera public */
+
+
+nav ul li a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* css libros de portada index */
+.librosPortada {
+    filter: drop-shadow(0 0 10px rgb(12, 164, 63));
+}
